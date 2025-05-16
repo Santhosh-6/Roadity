@@ -1,7 +1,7 @@
-#🚦 Rodity: Road Accident Predictor and Analyzer
+# 🚦 Rodity: Road Accident Predictor and Analyzer
 Rodity is a web-based application that leverages machine learning to predict and analyze road accident severity based on various real-world factors. It helps users understand how different conditions affect road safety, enabling proactive measures for accident prevention.
 
-##🧠 Features
+## 🧠 Features
 - 🚗 Accident severity prediction using trained machine learning models
 - 📊 Interactive visual analysis of accident data
 - 🧾 User-friendly web interface built with Flask
@@ -9,9 +9,9 @@ Rodity is a web-based application that leverages machine learning to predict and
 - 🤖 Gemini API integration for driving safety suggestions
 - 🧾 Input Columns / Features
  
-##The model takes the following features as input:
+## The model takes the following features as input:
 
-###Column	Description
+### Column	Description
 weather	Weather condition during the incident
 road_condition	Condition of the road
 road_type	Type of road
@@ -48,7 +48,7 @@ cd rodity
  pip install -r requirements.txt
 3.**Run the Flask app**
 python app.py
-4.**Access the app**
+4. **Access the app**
 Open your browser and go to http://127.0.0.1:5000
 ## 📈 Future Improvements
 - Deploy the app on cloud
